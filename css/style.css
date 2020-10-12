@@ -294,6 +294,7 @@ body {
 .}
 .is-open{
     display: flex;
+    top: 0;
 }
 .modal-dialog{
     margin: auto;

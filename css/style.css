@@ -292,9 +292,9 @@ body {
     background: rgba(0, 0, 0, 0.4);
     display: flex;
 .}
-/*.is-open{*/
-/*    display: flex;*/
-/*}*/
+.is-open{
+    display: flex;
+}
 .modal-dialog{
     margin: auto;
     max-width: 780px;

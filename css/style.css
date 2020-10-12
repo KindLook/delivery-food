@@ -4,8 +4,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-
     margin-top: 44px;
+    position: relative;
 }
 
 
@@ -290,11 +290,11 @@ body {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.4);
-    display: none;
-.}
-.is-open{
     display: flex;
-}
+.}
+/*.is-open{*/
+/*    display: flex;*/
+/*}*/
 .modal-dialog{
     margin: auto;
     max-width: 780px;
@@ -303,13 +303,13 @@ body {
     border-radius: 5px;
     padding: 40px 45px;
 }
-.modul-header{
+.modal-header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 45px;
 }
-.modul-header__title{
+.modal-header__title{
     margin: 0;
     font-weight: bold;
     font-size: 36px;
@@ -322,7 +322,7 @@ body {
     background-color: transparent;
 }
 
-.modul-body{
+.modal-body{
     margin-bottom: 52px;
 }
 .food-row{
@@ -372,7 +372,7 @@ body {
     margin-left: 10px;
     margin-right: 10px;
 }
-.modul-footer{
+.modal-footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -381,7 +381,7 @@ body {
     display: flex;
     align-items: center;
 }
-.modul-pricetag{
+.modal-pricetag{
     background: #262626;
     border-radius: 5px;
     color: #FFFFFF;
